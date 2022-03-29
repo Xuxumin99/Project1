@@ -1,0 +1,39 @@
+div {
+	padding: 1em;
+	font-family: 'Raleway', 'Arial';
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background: #333;
+    color: white;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: .5rem 1rem;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.navigation ul li a:hover {
+    background: #4a4a4a;
+}
+ 
+h1 {
+    margin-left: 1rem;
+}
